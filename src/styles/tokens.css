@@ -1,0 +1,59 @@
+:root {
+  /* 浅色：纸面 */
+  --bg:            #F7F4EE;
+  --surface:       #FFFDF9;
+  --surface-sunk:  #F1EDE5;
+  --line:          #E6E0D6;
+  --ink:           #1F1D1A;
+  --ink-muted:     #6B665E;
+  --ink-faint:     #A39E95;
+
+  --gold:          #A8862F;
+  --gold-soft:     #F3EBD3;
+  --slot:          #B0524C;
+  --slot-soft:     #F6E4E1;
+  --zh:            #315A9B;
+
+  --ok:            #4F7A5A;
+  --ok-soft:       #E3EEE5;
+  --warn:          #B7791F;
+  --warn-soft:     #F8ECD6;
+  --err:           #B0524C;
+  --err-soft:      #F6E4E1;
+
+  --radius-s: 6px;
+  --radius-m: 10px;
+  --shadow-1: 0 1px 2px rgba(31, 29, 26, 0.06), 0 0 0 1px var(--line);
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  --font-serif: "Source Serif 4", "Literata", Georgia, serif;
+  --font-sans: "Inter", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --font-zh: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --body-size: 19px;
+}
+
+[data-theme="dark"] {
+  /* 深色：夜读，暖黑而不是纯黑 */
+  --bg:            #171613;
+  --surface:       #201E1A;
+  --surface-sunk:  #1B1A17;
+  --line:          #34312B;
+  --ink:           #ECE6DA;
+  --ink-muted:     #A59E91;
+  --ink-faint:     #6E685E;
+
+  --gold:          #D4B65A;
+  --gold-soft:     #2E2919;
+  --slot:          #D9867E;
+  --slot-soft:     #3A2422;
+  --zh:            #8FB0E3;
+
+  --ok:            #86B392;
+  --ok-soft:       #1F2C22;
+  --warn:          #E0A84E;
+  --warn-soft:     #33281A;
+  --err:           #D9867E;
+  --err-soft:      #3A2422;
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.28), 0 0 0 1px var(--line);
+}
